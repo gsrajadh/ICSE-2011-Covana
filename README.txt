@@ -50,8 +50,8 @@ The tool was originally presented in this [Paper](https://people.engr.ncsu.edu/t
 
 Please note that this repository is not the original repository for this tool. This repository is merely for hosting the tool on GitHub and [I](https://github.com/smallen3) am not the original author of this tool.
 
-Here is the link to the [Original Project Page!](https://research.csc.ncsu.edu/ase/projects/covana/)
-Here is the link to the [Video!](https://research.csc.ncsu.edu/ase/projects/covana/covana.html) showing the demonstration of the tool.
+Here is the link to the [Original Project Page](https://research.csc.ncsu.edu/ase/projects/covana/)
+Here is the link to the [Video](https://research.csc.ncsu.edu/ase/projects/covana/covana.html) showing the demonstration of the tool.
 
 In this repository, for Covana you will find:
  :white_check_mark: Source code for Covana
@@ -61,3 +61,4 @@ In this repository, for Covana you will find:
 This repository was constructed by [Sai Sindhur Malleni](https://github.com/smallen3) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
 
 Thanks to the authors Xusheng Xiao, Tao Xie, Nikolai Tillmann, and Peli de Halleux for making the tool available. 
+
