@@ -54,9 +54,9 @@ Here is the link to the [Original Project Page](http://research.csc.ncsu.edu/ase
 Here is the link to the [Video](http://research.csc.ncsu.edu/ase/projects/covana/covana.html) showing the demonstration of the tool.
 
 In this repository, for Covana you will find:
-* :white_check_mark: Source code for Covana
-* :white_check_mark: Executable for Pex, which is required for Covana to run as Coavana is an extension of Pex
-* :white_check_mark: [The original page for Download](http://pexase.codeplex.com/) 
+ :white_check_mark: Source code for Covana
+ :white_check_mark: Executable for Pex, which is required for Covana to run as Coavana is an extension of Pex
+ :white_check_mark: [The original page for Download](http://pexase.codeplex.com/) 
 
 This repository was constructed by [Sai Sindhur Malleni](https://github.com/smallen3) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
 
