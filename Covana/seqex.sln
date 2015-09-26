@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seqex", "Seqex\Seqex.csproj", "{A55E89F3-FB71-4104-85EA-F5984BCFC848}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{426F8BA6-BD49-4E82-A09A-ECDF166B799B}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		seqex.vsmdi = seqex.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seqex.Tests", "Seqex.Tests\Seqex.Tests.csproj", "{4A498CDD-AC2E-4385-9746-B19070ACF912}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = seqex.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A55E89F3-FB71-4104-85EA-F5984BCFC848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55E89F3-FB71-4104-85EA-F5984BCFC848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55E89F3-FB71-4104-85EA-F5984BCFC848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55E89F3-FB71-4104-85EA-F5984BCFC848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A498CDD-AC2E-4385-9746-B19070ACF912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A498CDD-AC2E-4385-9746-B19070ACF912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A498CDD-AC2E-4385-9746-B19070ACF912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A498CDD-AC2E-4385-9746-B19070ACF912}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\DUCoverConsole.exe.config
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\DUCoverConsole.exe
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\DUCoverConsole.pdb
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\DUCover.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\QuickGraph.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\QuickGraph.Concepts.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\NLog.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\PexMe.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\DUCover.pdb
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\NLog.xml
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\bin\Debug\PexMe.pdb
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\obj\x86\Debug\DUCoverConsole.exe
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\DUCoverConsole\obj\x86\Debug\DUCoverConsole.pdb

@@ -1,0 +1,5 @@
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\ExternalLib\bin\Debug\ExternalLib.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\ExternalLib\bin\Debug\ExternalLib.pdb
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\ExternalLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\ExternalLib\obj\Debug\ExternalLib.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\ExternalLib\obj\Debug\ExternalLib.pdb

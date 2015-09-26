@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07B9FEEF-FB85-4CA7-ACA6-CCB088486DC4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DUCover</RootNamespace>
+    <AssemblyName>DUCover</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>DUCover.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ExtendedReflection, Version=0.93.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Pex.Framework, Version=0.93.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="NLog">
+      <HintPath>.\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph">
+      <HintPath>..\ExternalLibrary\QuickGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph.Algorithms">
+      <HintPath>..\ExternalLibrary\QuickGraph.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph.Collections, Version=2.1.1441.30421, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternalLibrary\QuickGraph.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph.Concepts, Version=2.1.1441.30421, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternalLibrary\QuickGraph.Concepts.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph.Exceptions, Version=2.1.1441.30421, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternalLibrary\QuickGraph.Exceptions.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph.Predicates">
+      <HintPath>..\ExternalLibrary\QuickGraph.Predicates.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph.Representations">
+      <HintPath>..\ExternalLibrary\QuickGraph.Representations.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Component\DUCoverEngine.cs" />
+    <Compile Include="Core\AllDeclEntity.cs" />
+    <Compile Include="Core\DeclClassEntity.cs" />
+    <Compile Include="Core\DeclFieldEntity.cs" />
+    <Compile Include="Core\DUCoverConstants.cs" />
+    <Compile Include="Core\DUCoverMain.cs" />
+    <Compile Include="Core\DUCoverStoreEntry.cs" />
+    <Compile Include="Core\IDeclEntity.cs" />
+    <Compile Include="Graph\DepthFirstTraversal.cs" />
+    <Compile Include="Graph\InstructionGraph.cs" />
+    <Compile Include="Graph\InstructionGraphBuilder.cs" />
+    <Compile Include="Graph\InstructionVertex.cs" />
+    <Compile Include="Graph\InstructionVertexProvider.cs" />
+    <Compile Include="Persistence\MyFileWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PUTGenerator\PUTGen.cs" />
+    <Compile Include="SideEffectAnalyzer\SEFieldStore.cs" />
+    <Compile Include="SideEffectAnalyzer\SEMethodStore.cs" />
+    <Compile Include="SideEffectAnalyzer\SideEffectStore.cs" />
+    <Compile Include="SideEffectAnalyzer\SETracer.cs" />
+    <Compile Include="Static\DeclEntityCollector.cs" />
+    <Compile Include="Static\EffectAnalyzer.cs" />
+    <Compile Include="Tracer\ThreadTracer.cs" />
+    <Compile Include="Tracer\Tracer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dynamic\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DUCover.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\PexMe\PexMe.csproj">
+      <Project>{402058F1-C3D1-4C56-94FC-B61D031E63A6}</Project>
+      <Name>PexMe</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

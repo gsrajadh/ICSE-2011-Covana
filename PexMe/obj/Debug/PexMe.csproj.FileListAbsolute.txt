@@ -1,0 +1,5 @@
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\PexMe\bin\Debug\PexMe.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\PexMe\bin\Debug\PexMe.pdb
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\PexMe\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\PexMe\obj\Debug\PexMe.dll
+C:\Users\xsxiao\Desktop\CovanaReleaseV0.1\Covana\PexMe\obj\Debug\PexMe.pdb
