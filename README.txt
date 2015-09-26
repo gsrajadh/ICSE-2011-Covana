@@ -46,12 +46,12 @@ Please contact Xusheng Xiao (xxiao2@ncsu.edu) for any doubts or suggestions.
 # ICSE-2011-COVANA
 This repository contains information related to the tool Covana . Covana was developed as an extension to Pex- A tool for automation in developer testing.
 
-The tool was originally presented in this [Paper](http://people.engr.ncsu.edu/txie/publications/icse11demo-covana.pdf) at International Conference on Software Engineering, 2011.
+The tool was originally presented in this [Paper](https://people.engr.ncsu.edu/txie/publications/icse11demo-covana.pdf) at International Conference on Software Engineering, 2011.
 
-Please note that this repository is not the original repository for this tool. This repository is merely for hosting the tool on GitHub and [I]www.github.com/smallen3) am not the original author of this tool.
+Please note that this repository is not the original repository for this tool. This repository is merely for hosting the tool on GitHub and [I](https://github.com/smallen3) am not the original author of this tool.
 
-Here is the link to the [Original Project Page](http://research.csc.ncsu.edu/ase/projects/covana/)
-Here is the link to the [Video](http://research.csc.ncsu.edu/ase/projects/covana/covana.html) showing the demonstration of the tool.
+Here is the link to the [Original Project Page](https://research.csc.ncsu.edu/ase/projects/covana/)
+Here is the link to the [Video](https://research.csc.ncsu.edu/ase/projects/covana/covana.html) showing the demonstration of the tool.
 
 In this repository, for Covana you will find:
  :white_check_mark: Source code for Covana
