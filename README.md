@@ -54,8 +54,11 @@ Here is the link to the [Original Project Page](https://research.csc.ncsu.edu/as
 Here is the link to the [Video](https://research.csc.ncsu.edu/ase/projects/covana/covana.html) showing the demonstration of the tool.
 
 In this repository, for Covana you will find:
+
  :white_check_mark: Source code for Covana
+ 
  :white_check_mark: Executable for Pex, which is required for Covana to run 
+ 
  :white_check_mark: [The original page for Download](https://pexase.codeplex.com/) 
 
 
