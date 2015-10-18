@@ -48,10 +48,10 @@ This repository contains information related to the tool Covana . Covana was dev
 
 The tool was originally presented in this [Paper](https://people.engr.ncsu.edu/txie/publications/icse11demo-covana.pdf) at International Conference on Software Engineering, 2011.
 
-Please note that this repository is not the original repository for this tool. This repository is merely for hosting the tool on GitHub and [I](https://github.com/smallen3) am not the original author of this tool.
+Please note that this repository _is not_ the original repository for this tool. This repository is merely for hosting the tool on GitHub and [I](https://github.com/smallen3) am not the original author of this tool. Here are some links to the original project:
+* [The Official Project Page](https://research.csc.ncsu.edu/ase/projects/covana/)
+* [A Video of the Tool](https://research.csc.ncsu.edu/ase/projects/covana/covana.html)
 
-Here is the link to the [Original Project Page](https://research.csc.ncsu.edu/ase/projects/covana/)
-Here is the link to the [Video](https://research.csc.ncsu.edu/ase/projects/covana/covana.html) showing the demonstration of the tool.
 
 In this repository, for Covana you will find:
 
