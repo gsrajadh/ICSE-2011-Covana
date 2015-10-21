@@ -46,7 +46,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Please contact Xusheng Xiao (xxiao2@ncsu.edu) for any doubts or suggestions.
 
 # ICSE-2011-COVANA
-This repository contains information related to the tool Covana . Covana was developed as an extension to Pex- A tool for automation in developer testing.
+This repository contains information related to the tool Covana. Covana was developed as an extension to Pex- A tool for automation in developer testing.
 
 The tool was originally presented in this [Paper](https://people.engr.ncsu.edu/txie/publications/icse11demo-covana.pdf) at International Conference on Software Engineering, 2011.
 
