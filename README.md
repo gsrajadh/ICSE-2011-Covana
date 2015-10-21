@@ -2,7 +2,7 @@
 Covana: Precise Identification of Problems for Structural Test Generation 
 ==========================================================================
 
-This repository contains information related to Covana, a tool presented in the International Conference on Software Engineering 2011.
+
 
 Project Summary:
 The process of achieving high structural coverage of the program under test can be automated using tools built for automated test-generation approaches. When applied on complex programs in practice, these approaches face various problems in generating test inputs to achieve high structural coverage. Our preliminary study identified two main types of problems: (1) external-method-call problem (EMCP), where the method calls from external libraries throw exceptions to abort test executions or their return values are used to decide subsequent branches, causing the branches not to be covered; (2) object-creation problem (OCP), where tools fails to generate method-call sequences to produce desirable object states. Since these automated tools could not be powerful enough to deal with these various problems in testing complex programs, we advocate cooperative developer testing, where developers provide guidance to help tools achieve higher structural coverage. To reduce the efforts of developers in providing guidance to tools, in this paper, we propose a novel approach, called Covana, to precisely identify and report problems that prevent the tools from achieving high structural coverage by computing data dependency between problem candidates and not-covered branches. We provide two techniques to instantiate Covana to identify EMCPs and OCPs. To show the effectiveness of Covana, we conduct evaluations on two open source projects. Our results show that Covana effectively identifies 43 EMCPs out of 1610 EMCP candidates with only 1 false positive and 2 false negative, and 155 OCPs out of 451 OCP candidates with 20 false positives and 28 false negatives.
@@ -50,9 +50,9 @@ This repository contains information related to the tool Covana . Covana was dev
 
 The tool was originally presented in this [Paper](https://people.engr.ncsu.edu/txie/publications/icse11demo-covana.pdf) at International Conference on Software Engineering, 2011.
 
-Please note that this repository *is not* the original repository for this tool. This repository is merely for hosting the tool on GitHub and [I](https://github.com/smallen3) am not the original author of this tool.
+Please note that this repository is not the original repository for this tool. This repository is merely for hosting the tool on GitHub and [I](https://github.com/smallen3) am not the original author of this tool.
 
-Here is the link to the [Original Project Page](https://research.csc.ncsu.edu/ase/projects/covana/).
+Here is the link to the [Original Project Page](https://research.csc.ncsu.edu/ase/projects/covana/)
 Here is the link to the [Video](https://research.csc.ncsu.edu/ase/projects/covana/covana.html) showing the demonstration of the tool.
 
 In this repository, for Covana you will find:
